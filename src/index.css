@@ -1,0 +1,22 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+/* Carousel siempre del mismo tamaño */
+#heroCarousel {
+  width: 100%;
+  height: 60vh; /* Altura fija del carousel, ajustable */
+  overflow: hidden; /* Oculta cualquier parte que sobresalga */
+}
+
+/* Imagen que se adapta al carousel */
+#heroCarousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Recorta la imagen para llenar el espacio sin deformarla */
+  object-position: center; /* Centra la imagen dentro del carousel */
+}
