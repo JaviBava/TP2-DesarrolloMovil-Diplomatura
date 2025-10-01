@@ -13,7 +13,6 @@ function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Tu API Key de OMDb
     const API_KEY = 'b03c445f'; 
     const API_URL_BUSQUEDA = `http://www.omdbapi.com/?s=movie&apikey=${API_KEY}`;
 
